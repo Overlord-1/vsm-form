@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSM Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: fit-content;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: rgb(255, 255, 255);
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        body{
+            background-color: #555;
+            
+        }
+        img{
+            margin-left: -18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        https://docs.google.com/forms/d/e/1FAIpQLSdDbSCxTvB-c7IiXJZidywPbecDOD64U2f8OQR03tceNEPU1Q/viewform
+        ?usp=pp_url&entry.651802867=ruchir+&entry.1939137548=8452915190&entry.1531422543=ruchir@gmail.com
+
+
+        https://docs.google.com/forms/d/e/1FAIpQLSdDbSCxTvB-c7IiXJZidywPbecDOD64U2f8OQR03tceNEPU1Q/viewform?usp=pp_url&entry.651802867=rerere&entry.1939137548=323232&entry.1531422543=fefef
+     -->
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdDbSCxTvB-c7IiXJZidywPbecDOD64U2f8OQR03tceNEPU1Q/formResponse">
+        <img src="/image.png" alt="VSM LOGO">
+
+        <label for="entry.651802867">Enter your name:</label>
+        <input type="text" id="name" name="entry.651802867" required>
+
+        <label for="entry.1939137548">Enter your mobile number:</label>
+        <input type="tel" id="mobno" name="entry.1939137548" required>
+
+        <label for="entry.1531422543">Enter your email:</label>
+        <input type="email" id="email" name="entry.1531422543" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
